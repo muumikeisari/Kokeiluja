@@ -5,24 +5,14 @@ const cors = require('cors')
 let notes = [
   {
     id: 1,
-    content: "HTML is easy",
+    content: "Pitäkää hauskaa mökillä",
     important: true
   },
   {
     id: 2,
-    content: "Browser can execute only JavaScript",
+    content: "Muistakaa uida ja saunoo",
     important: false
   },
-  {
-    id: 3,
-    content: "GET and POST are the most important methods of HTTP protocol",
-    important: true
-  },
-  {
-    id: 4,
-    content: "mitä kyrvät",
-    important: true
-  }
 ]
 
 const requestLogger = (request, response, next) => {
